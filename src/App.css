@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --primary:#79b2ff;
+  --secondary:#ff7cff;
+  --pink: #ff9a98;
+  --yellow:#ffe160;
+  --green:#d3ff85;
+}
+  
+.header {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 20pt;
+  background-color: var(--primary);
+  color: var(--green);
+   
+}
+
+/* Bio */
+
+.bio h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25pt;
+  padding-top: 60px;
+  margin-top: 15px;
+  font-weight: 700;
+  color:var(--primary);
+  letter-spacing: 10pt;
+}
+
+.bio p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 10px;
+  color: var(--secondary);
+  letter-spacing: 5pt;
+}
+
+.image-bio {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding: 20px;
+  width: 250px; 
+}
+
+
+/* Input */
+
+input {
+  width: 400px;
+  height: 40px;
+  border-color: var(--primary);
+  border-radius: 8px;
+  margin: 15px;
+  font-size: 11pt;
+  letter-spacing: 2pt;
+
+}
+
+/* Repos */
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;     
+}
+
+.container div {
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--green);  
+}
+
+
+/* Footer */
+.footer {
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;  
+  letter-spacing: 4pt;
+  font-weight: 800;
+  font-size: 15px;
+  background-color: var(--pink);
+  color: #ffff;  
+}
